@@ -8,6 +8,6 @@ function add(num1: number, num2: number) {
     return num1 + num2;
 }
 
-btn?.addEventListener('click', function() {
+btn.addEventListener('click', function() {
     console.log(add(+input1.value, +input2.value))
 });
