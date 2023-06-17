@@ -42,9 +42,9 @@ if (typeof some === "string") {
 
 // tuple type
 
-let person: [string, number];
+let person1: [string, number];
 
-person = ["Max", 21];
+person1 = ["Max", 21];
 
 // enum type
 enum Status {
